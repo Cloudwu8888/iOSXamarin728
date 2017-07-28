@@ -1,6 +1,7 @@
 ﻿using System;
 
 using UIKit;
+using Microsoft.Azure.Mobile.Analytics;
 
 namespace xamarin
 {
@@ -14,6 +15,7 @@ namespace xamarin
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            Analytics.TrackEvent("The First View");
             // Perform any additional setup after loading the view, typically from a nib.
         }
 

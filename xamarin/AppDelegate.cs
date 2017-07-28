@@ -1,5 +1,8 @@
 ﻿using Foundation;
 using UIKit;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 namespace xamarin
 {
@@ -18,13 +21,15 @@ namespace xamarin
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-            // Override point for customization after application launch.
-            // If not required for your application you can safely delete this method
+			// Override point for customization after application launch.
+			// If not required for your application you can safely delete this method
 
-            // Code to start the Xamarin Test Cloud Agent
-#if ENABLE_TEST_CLOUD
-			Xamarin.Calabash.Start();
-#endif
+			// Code to start the Xamarin Test Cloud Agent
+			//#if ENABLE_TEST_CLOUD
+			//		Xamarin.Calabash.Start();
+			//#endif
+			MobileCenter.Start("2fb86367-d4f6-4cd1-8182-2058f481f8ca",
+				   typeof(Analytics), typeof(Crashes));
 
             return true;
         }
