@@ -1,0 +1,11 @@
+objc[1336]: Class VCWeakObjectHolder is implemented in both /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x127124ca8) and /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x127056cd0). One of the two will be used. Which one is undefined.
+objc[1336]: Class PLBuildVersion is implemented in both /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x124e17cc0) and /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x124c2e6f0). One of the two will be used. Which one is undefined.
+2017-07-28 16:23:06.372 xamarin[1336:52088] [MobileCenter] ASSERT: -[MSMobileCenter configure:]/197 Mobile Center SDK configured successfully.
+2017-07-28 16:23:13.607 xamarin[1336:52088] Unhandled managed exception:
+ (System.SystemException)
+  at xamarin.SecondViewController.ViewDidLoad () [0x00011] in <3e6936840d6b4f9da293bb93e688e9c9>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at xamarin.Application.Main (System.String[] args) [0x00000] in <3e6936840d6b4f9da293bb93e688e9c9>:0 
