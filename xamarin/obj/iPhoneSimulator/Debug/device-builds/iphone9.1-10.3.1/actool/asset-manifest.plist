@@ -6,8 +6,13 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+<<<<<<< HEAD
 			<string>/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/bundle/Assets.car</string>
 			<string>/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/partial-info.plist</string>
+=======
+			<string>/Users/bys/Projects/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/bundle/Assets.car</string>
+			<string>/Users/bys/Projects/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/partial-info.plist</string>
+>>>>>>> 57367f2333afda72aaf303e9958ff3baef81b133
 		</array>
 	</dict>
 </dict>

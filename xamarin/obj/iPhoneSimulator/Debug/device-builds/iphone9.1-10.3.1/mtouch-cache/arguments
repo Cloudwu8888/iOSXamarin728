@@ -1,9 +1,15 @@
 # Version: 10.10.0.36 (d15-2: d2270eec)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/mtouch/mtouch.exe \
+<<<<<<< HEAD
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache \
 	--sim \
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/xamarin.app \
+=======
+	/Users/bys/Projects/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache \
+	--sim \
+	/Users/bys/Projects/xamarin/xamarin/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/xamarin.app \
+>>>>>>> 57367f2333afda72aaf303e9958ff3baef81b133
 	--executable \
 	xamarin \
 	--fastdev \
@@ -18,6 +24,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
+<<<<<<< HEAD
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-symbols.list \
 	--dsym=no \
 	-r \
@@ -42,6 +49,28 @@
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/packages/Microsoft.Azure.Mobile.Push.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Push.dll \
 	-r \
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/packages/Microsoft.Azure.Mobile.Push.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Push.iOS.Bindings.dll \
+=======
+	/Users/bys/Projects/xamarin/xamarin/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Xamarin.TestCloud.Agent.0.20.6/lib/Xamarin.iOS10/Calabash.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Analytics.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Analytics.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Crashes.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Crashes.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Distribute.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Distribute.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Distribute.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Distribute.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.iOS.Bindings.dll \
+>>>>>>> 57367f2333afda72aaf303e9958ff3baef81b133
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -53,6 +82,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
+<<<<<<< HEAD
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/packages/Xamarin.TestCloud.Agent.0.20.6/lib/Xamarin.iOS10/Calabash.dll \
 	-r \
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/packages/Microsoft.Azure.Mobile.Analytics.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll \
@@ -77,3 +107,25 @@
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/bin/iPhoneSimulator/Debug/xamarin.exe \
+=======
+	/Users/bys/Projects/xamarin/packages/Xamarin.TestCloud.Agent.0.20.6/lib/Xamarin.iOS10/Calabash.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Analytics.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Analytics.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Crashes.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Crashes.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Distribute.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Distribute.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.Distribute.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Distribute.iOS.Bindings.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.dll \
+	-r \
+	/Users/bys/Projects/xamarin/packages/Microsoft.Azure.Mobile.0.14.0/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.iOS.Bindings.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/bys/Projects/xamarin/xamarin/bin/iPhoneSimulator/Debug/xamarin.exe \
+>>>>>>> 57367f2333afda72aaf303e9958ff3baef81b133

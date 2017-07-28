@@ -16,7 +16,13 @@ namespace xamarin
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+<<<<<<< HEAD
+            Analytics.TrackEvent("The second view");
+            throw new SystemException("");
+
+=======
             throw new System.Exception("");
+>>>>>>> 154ab31379deb3559884b9427a736a4b2f758719
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
