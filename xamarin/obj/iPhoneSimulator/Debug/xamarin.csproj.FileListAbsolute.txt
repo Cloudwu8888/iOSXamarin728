@@ -16,3 +16,5 @@
 /Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/xamarin.csproj.CoreCompileInputs.cache
 /Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/xamarin.exe
 /Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/obj/iPhoneSimulator/Debug/xamarin.pdb
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Push.dll
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Push.iOS.Bindings.dll

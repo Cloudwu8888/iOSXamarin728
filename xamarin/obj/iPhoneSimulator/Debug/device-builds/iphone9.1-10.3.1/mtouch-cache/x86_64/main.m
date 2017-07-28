@@ -9,6 +9,10 @@ void xamarin_register_modules_impl ()
 void xamarin_register_assemblies_impl ()
 {
 	guint32 exception_gchandle = 0;
+	xamarin_open_and_register ("Microsoft.Azure.Mobile.Push.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Microsoft.Azure.Mobile.Push.iOS.Bindings.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Microsoft.Azure.Mobile.iOS.Bindings.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll", &exception_gchandle);
