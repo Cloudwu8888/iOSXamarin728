@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Azure.Mobile.Analytics;
 
 using UIKit;
 
@@ -14,6 +15,9 @@ namespace xamarin
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            Analytics.TrackEvent("The second view");
+            throw new SystemException("");
+
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
