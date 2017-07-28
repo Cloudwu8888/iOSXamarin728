@@ -1,0 +1,10 @@
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/xamarin.UITests.dll
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/xamarin.UITests.pdb
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/nunit.framework.dll
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/Xamarin.UITest.dll
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/nunit.framework.xml
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/bin/Debug/Xamarin.UITest.xml
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/obj/Debug/xamarin.UITests.csprojResolveAssemblyReference.cache
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/obj/Debug/xamarin.UITests.csproj.CoreCompileInputs.cache
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/obj/Debug/xamarin.UITests.dll
+/Users/bys/Documents/Cloud/OSXamarin728.git/xamarin/xamarin.UITests/obj/Debug/xamarin.UITests.pdb
