@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{6614854B-E16D-4C5D-AD9C-D50F207BAB84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xamarin Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="trunk Status">
     <Files>
+<<<<<<< HEAD
       <File FileName="xamarin/AppDelegate.cs" Line="16" Column="40" />
       <File FileName="xamarin/FirstViewController.cs" Line="29" Column="1" />
       <File FileName="xamarin/SecondViewController.cs" Line="31" Column="1" />
       <File FileName="xamarin Status" />
+=======
+      <File FileName="xamarin/AppDelegate.cs" Line="17" Column="10" />
+      <File FileName="xamarin/SecondViewController.cs" Line="2" Column="1" />
+      <File FileName="xamarin/FirstViewController.cs" Line="29" Column="1" />
+      <File FileName="trunk Status" />
+>>>>>>> 154ab31379deb3559884b9427a736a4b2f758719
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

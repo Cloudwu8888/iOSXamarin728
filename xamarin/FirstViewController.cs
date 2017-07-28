@@ -2,6 +2,7 @@
 using Microsoft.Azure.Mobile.Analytics;
 
 using UIKit;
+using Microsoft.Azure.Mobile.Analytics;
 
 namespace xamarin
 {

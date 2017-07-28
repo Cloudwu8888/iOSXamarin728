@@ -25,11 +25,19 @@ namespace xamarin
 			// If not required for your application you can safely delete this method
 
 			// Code to start the Xamarin Test Cloud Agent
+<<<<<<< HEAD
 			MobileCenter.Start("2fb86367-d4f6-4cd1-8182-2058f481f8ca",
 				   typeof(Analytics), typeof(Crashes));
 //#if ENABLE_TEST_CLOUD
 		//	Xamarin.Calabash.Start();
 //#endif
+=======
+			//#if ENABLE_TEST_CLOUD
+			//		Xamarin.Calabash.Start();
+			//#endif
+			MobileCenter.Start("2fb86367-d4f6-4cd1-8182-2058f481f8ca",
+				   typeof(Analytics), typeof(Crashes));
+>>>>>>> 154ab31379deb3559884b9427a736a4b2f758719
 
             return true;
         }
